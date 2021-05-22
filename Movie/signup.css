@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+        background: url("img/netflix.jpeg") no-repeat center center fixed;
+        background-size: cover; 
+        font-family: "Roboto", sans-serif;
+    }   
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        position: sticky;
+        top: 0;
+      }
+      
+      .navbar-container {
+        display: flex;
+        align-items: center;
+        padding: 0 50px;
+        height: 100%;
+        color: white;
+       
+      }
+      .navbar-link
+      {
+        color: white;
+        text-decoration: none;
+      
+      }
+      
+      .logo {
+        font-size: 30px;
+        color: red;
+       
+        padding-right: 30px;
+      }
+      
+      .menu-list {
+        display: flex;
+        list-style: none;
+      }
+      
+      .menu-list-item {
+        margin-right: 30px;
+      }
+      
+      .profile-container {
+        margin-left: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      
+      .profile-text-container {
+        margin: 0 20px;
+      }
+      
+      .profile-picture {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+         
+.container{ 
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 40%; 
+    }
+.container h1{
+        font-family: 'Heebo', sans-serif;
+        width: 100%;
+        display: inline-block;
+        font-size: 40px;
+        margin-bottom: 15px;
+        padding: 13px 0;
+    }
+.box{
+        width: 100%; 
+        margin: 10px 0px;
+        border-bottom: 2px solid red;
+    }
+.box input{  
+        background: none;
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        outline:none;
+        color: white;
+    }
+.btn{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 12px 0px;
+        padding: 10px 21px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+        
+        
+    }
+.btn:hover{
+        opacity: 0.5;
+        color: white; 
+        background: red; 
+        
+    }
